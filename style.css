@@ -1,0 +1,282 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff8ee;
+}
+
+/* navbar mn tw ny logo ul or right img k alg alg margin dia hua... unko margin dena he nhi balky sirf #nabar ko 1 he dfa padding dy dy */
+
+#navbar{
+  padding: 20px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar #logo img{
+  height: 60px;
+}
+
+#navbar ul{
+  list-style: none;
+  display: flex;
+}
+
+#navbar ul li a{
+  color: #1d4c8b;
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+#navbar .right-side-pic img{
+  height: 40px;
+}
+
+/* jaani sb sy phly tw ny background color istrha dena hai before use kr k nhi denaa */
+
+#section-a{
+  background: #f5d1c9;
+  padding-bottom: 200px;
+  /* padding bottom end pr wo bowl k liye */
+}
+
+/* margin left ni krna bc text align sy kr isy
+isky ilawa heading1 or 2 ka code same tha tw un ko istrha aktha bhe likh skty */
+
+#heading-1, #heading-2{
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #1d4c8b;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+#heading-1{
+  margin-top: 0px;
+}
+
+#heading-3{
+    font-size: 3.4rem;
+    font-weight: lighter;
+    font-family: 'Sacramento', cursive;
+    color: #1d4c8b;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#section-b{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-b img{
+  height: 500px;
+  width: 500px;
+  margin-top: -250px;
+}
+
+.dots{
+  margin-top: -200px;
+  padding: 30px;
+  border-top: 80px dotted #f4d0c8;
+  border-bottom: 80px dotted #f4d0c8;
+}
+
+#menu-section{
+  border: 2px solid #1d4c8b;
+  margin: 100px 200px;
+  text-align: center;
+  padding: 30px 50px;
+}
+
+#menu-section h1, #menu-section p{
+  margin: 10px 150px;
+  padding: 0;
+}
+
+#menu-section p{
+  font-size: 14px;
+}
+
+#box{
+  border: 2px solid #1d4c8b;
+  color: #1d4c8b;
+  background-color: #f4d0c8;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.cereals, .milk{
+  width: 45%;
+}
+
+.prices{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prices ul{
+  list-style: none;
+  text-align: left;
+}
+
+.btn-cart{
+    background-color: #1d4c8b;
+    color: white;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border: 2px solid #1d4c8b;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-cart:hover{
+    background-color: #fff8ee;
+    color: #1d4c8b;
+}
+
+#section-combos{
+  background-color: #a8baca;
+  padding: 50px 100px;
+  text-align: center;
+  color: #1d4c8b;
+}
+
+#container-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.box{
+  border: 2px solid #1d4c8b;
+  background-color: #f5d1c9;
+  margin: 0 50px;
+  padding: 20px;
+}
+
+.btn-combos{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: #f5d1c9;
+    border: 2px solid #1d4c8b;
+    border-radius: 34px;
+    color: #1d4c8b;
+    padding: 10px 30px;
+}
+.btn-combos:hover{
+    background-color: white;
+}
+
+#section-history, #face-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.for-img, .history, .name-creator, .for-face{
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.for-img{
+  background: #f1d6cf;
+}
+.history{
+  background: #f5d1c9;
+}
+
+.name-creator{
+  background: #f5d1c9;
+}
+
+.for-face{
+  background: #a8baca;
+}
+
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.image img{
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.for-text h1, .for-text p{
+  margin: -20px 0;
+  padding: 0;
+}
+
+.footer-container{
+  padding: 50px 100px 0 100px;
+  background: #fff8ee;
+  color: #1d4c8b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.here-we-are, .open-container, .call-us,.say-hello{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.subscribe{
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subscribe img{
+  width: 100px;
+}
+
+.email-btn input{
+  border: 1px solid #1d4c8b;
+  width: 250px;
+  padding: 10px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.email-btn button{
+  padding: 10px 30px;
+  border: 2px solid #1d4c8b;
+  border-radius: 34px;
+  background-color: #1d4c8b;
+  color: white;
+}
+
+.email-btn button:hover{
+    background-color: white;
+    color: #1d4c8b;
+}
+
+.rights{
+  background: #a8baca;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
